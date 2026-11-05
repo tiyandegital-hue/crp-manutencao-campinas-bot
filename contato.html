@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato — CRP Manutenção | Ver o bot no WhatsApp</title>
+<meta name="description" content="Veja o assistente de triagem no WhatsApp da CRP Manutenção ou solicite uma demonstração. Campinas e região.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>Campinas e região • Plantão de triagem</span><span class="tb-right">Protocolo ativo</span></div></div>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html" aria-label="CRP Manutenção — Início">
+      <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#0A1628" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3 3.7-3.7z"/></svg></span>
+      <span><span class="logo-name" data-business>CRP Manutenção</span><br><span class="logo-sub">Sistema de triagem</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="como-funciona.html">Como funciona</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="semana.html">O que muda na sua semana</a></li>
+        <li><a href="contato.html" class="active">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="header-cta">
+      <a class="header-phone" href="tel:+5519995781386"><small>Atendimento em campo</small><span data-phone>(19) 99578-1386</span></a>
+      <a class="btn" data-wa data-wa-text="Olá! Quero ver o bot da CRP Manutenção no WhatsApp.">Chamar no WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <span class="chip">Terminal de contato • Campinas / RMC — Canal oficial</span>
+    <h1>Quero ver o bot no meu WhatsApp</h1>
+    <p class="lead" style="max-width:720px">Sem burocracia, sem fidelidade e sem contrato de longo prazo. Em 72 horas o assistente operacional da <span data-business>CRP Manutenção</span> estará ativo, calibrado e respondendo no seu número oficial.</p>
+  </div>
+</section>
+
+<hr class="hazard" aria-hidden="true">
+
+<section class="sec-light">
+  <div class="wrap split-2">
+    <div class="form-card" style="background:var(--navy);color:var(--paper)">
+      <span class="kicker" style="color:var(--yellow)">Linha de resposta imediata • Canal do Carlos</span>
+      <h2 style="color:#fff;margin:.5rem 0 .6rem">Ver o bot no WhatsApp da CRP</h2>
+      <p style="color:#C6D2DE">Toque no botão abaixo para abrir a conversa no WhatsApp da CRP com uma mensagem pronta — como um cliente faria ao pedir um reparo:</p>
+      <p style="margin:1rem 0;font-family:var(--font-mono);font-size:1.05rem;font-weight:700;color:#fff"><span data-phone>(19) 99578-1386</span><br><span style="font-size:.8rem;font-weight:400;color:#C6D2DE">Campinas e Região Metropolitana (RMC)</span></p>
+      <a class="btn btn-green btn-block" data-wa data-wa-text="Olá! Estou com um problema em casa e quero ver como funciona a triagem da CRP Manutenção.">Chamar no WhatsApp agora ➜</a>
+      <p style="margin-top:.9rem;font-size:.85rem;color:#C6D2DE">Inicia o chat com a mensagem pré-preenchida — é só enviar.</p>
+    </div>
+
+    <div class="form-card">
+      <span class="kicker">Ordem de solicitação • Demonstração</span>
+      <h3 style="margin:.4rem 0 .9rem">Solicitar demonstração</h3>
+      <form id="demo-form" novalidate>
+        <div class="field">
+          <label for="f-nome">01. Seu nome / responsável *</label>
+          <input type="text" id="f-nome" name="nome" placeholder="Seu nome completo" autocomplete="name">
+          <p class="err">Preencha este campo.</p>
+        </div>
+        <div class="field">
+          <label for="f-whats">02. WhatsApp com DDD *</label>
+          <input type="tel" id="f-whats" name="whatsapp" placeholder="(19) 90000-0000" autocomplete="tel">
+          <p class="err">Preencha este campo.</p>
+        </div>
+        <div class="field" id="horario-field">
+          <label>03. Melhor horário para contato / demonstração *</label>
+          <div class="radios">
+            <label><input type="radio" name="horario" value="Manhã"> Manhã</label>
+            <label><input type="radio" name="horario" value="Tarde"> Tarde</label>
+            <label><input type="radio" name="horario" value="Noite"> Noite</label>
+          </div>
+          <p class="err">Escolha um horário.</p>
+        </div>
+        <div class="field">
+          <label for="f-obs">04. Observações adicionais / cenários críticos</label>
+          <textarea id="f-obs" name="obs" rows="3" placeholder="Ex.: quero ver o cenário de emergência hidráulica."></textarea>
+        </div>
+        <button type="submit" class="btn btn-block">Solicitar demonstração</button>
+        <p style="margin-top:.8rem;font-size:.85rem;color:var(--grey);text-align:center">Sem taxa de cancelamento · Demonstração sem compromisso</p>
+      </form>
+      <div class="form-success" id="form-success" role="status">
+        <h3>✓ Mensagem recebida (demonstração)</h3>
+        <p>Sua solicitação de demonstração foi registrada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec-light" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" style="color:#8A6D00">Cronograma de entrada em operação • Fase 1 a 3</span>
+      <h2>3 passos para o seu bot funcionar</h2>
+    </div>
+    <div class="grid grid-3">
+      <article class="card"><span class="step-num">01 • Alinhamento</span><h3>Alinhamento das regras</h3><p>O Carlos define os bairros que mais atende em Campinas, os limites de horário de campo e as regras de chamados urgentes.</p></article>
+      <article class="card"><span class="step-num">02 • Montagem</span><h3>Montagem e configuração</h3><p>O bot é preparado com o catálogo técnico, as perguntas de triagem e o vocabulário prático e direto que os clientes da CRP já conhecem. Prazo: 72 horas.</p></article>
+      <article class="card"><span class="step-num">03 • Teste</span><h3>Teste no seu aparelho</h3><p>Você mesmo manda mensagens no WhatsApp como se fosse um cliente novo, para testar as respostas antes de divulgar.</p></article>
+    </div>
+    <p style="margin-top:1.2rem;font-family:var(--font-mono);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--grey)">Tempo total de rollout: 72 horas corridas, com garantia de teste prévio.</p>
+  </div>
+</section>
+
+<section class="sec-light" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" style="color:#8A6D00">Política de garantia &amp; transparência técnica</span>
+      <h2>Sem surpresa, sem fidelidade</h2>
+    </div>
+    <div class="grid grid-3">
+      <article class="card"><span class="kicker">Taxa única</span><h3>Sem mensalidade abusiva</h3><p>Valor único de US$ 150 de implantação e entrega da máquina de triagem configurada. Sem fidelidade, sem contratos surpresa.</p><p class="kicker" style="margin-top:.6rem">Custo transparente e previsível</p></article>
+      <article class="card"><span class="kicker">Aprovação editorial</span><h3>Você aprova todos os textos</h3><p>Nenhuma resposta ou filtro de prioridade vai ao ar sem o aval expresso do Carlos.</p><p class="kicker" style="margin-top:.6rem">Controle editorial absoluto</p></article>
+      <article class="card"><span class="kicker">Chip original</span><h3>Seu número continua seu</h3><p>Não precisa trocar de chip, não perde nenhum histórico de conversas anteriores e mantém todos os clientes antigos no mesmo contato.</p><p class="kicker" style="margin-top:.6rem">Preservação total de contatos</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec-light" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" style="color:#8A6D00">Dados operacionais oficiais</span>
+      <h2>Cadastro regional</h2>
+    </div>
+    <div class="data-table">
+      <div class="data-cell"><b>Empresa / Responsável</b><span data-business>CRP Manutenção</span><br><span data-owner>Carlos Profeta</span><br>Manutenção residencial e comercial</div>
+      <div class="data-cell"><b>Região de atendimento</b>Campinas, SP<br>e Região Metropolitana (RMC)</div>
+      <div class="data-cell"><b>Site oficial de referência</b><a data-site href="https://crpmanutencao.com.br">crpmanutencao.com.br</a><br>Portfólio de serviços e histórico operacional</div>
+      <div class="data-cell"><b>WhatsApp oficial de triagem</b><span data-phone>(19) 99578-1386</span><br><a data-wa data-wa-text="Olá! Quero abrir um chamado com a CRP Manutenção.">Abrir chamado direto</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <span class="eyebrow">Pronto em 72 horas</span>
+    <h2>Vamos ligar o bot no seu WhatsApp?</h2>
+    <p>Responda “quero” no WhatsApp e começamos hoje mesmo.</p>
+    <a class="btn" data-wa data-wa-text="Olá! Quero ver o bot da CRP Manutenção no WhatsApp.">Chamar no WhatsApp</a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="f-grid">
+      <div>
+        <p class="f-brand" data-business>CRP Manutenção</p>
+        <p style="margin-top:.5rem">Manutenção residencial e comercial com triagem operacional e resposta técnica direta.</p>
+        <p style="margin-top:.6rem"><span class="f-label">Unidade regional</span>Campinas, SP</p>
+      </div>
+      <div>
+        <span class="f-label">Responsável técnico</span>
+        <p><span data-owner>Carlos Profeta</span></p>
+        <p style="margin-top:.6rem"><span class="f-label">Telefone / WhatsApp</span><a href="tel:+5519995781386" data-phone>(19) 99578-1386</a></p>
+      </div>
+      <div>
+        <span class="f-label">Região atendida</span>
+        <p>Campinas e Região Metropolitana de Campinas (RMC).</p>
+        <p style="margin-top:.6rem">Disponibilidade sob rota de campo.</p>
+      </div>
+      <div>
+        <span class="f-label">Canais &amp; portais</span>
+        <ul>
+          <li><a data-site href="https://crpmanutencao.com.br">crpmanutencao.com.br</a></li>
+          <li><a data-wa data-wa-text="Olá! Quero abrir um chamado com a CRP Manutenção.">Canal de triagem prioritária</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <p><strong style="color:#E8EDF0">Aviso legal &amp; operacional:</strong> demonstração do assistente de triagem WhatsApp para a <span data-business>CRP Manutenção</span>. Sem alegação de atendimento 24h irrestrito — triagem por prioridade de chamado, baseada em severidade. As conversas e imagens desta página são exemplos ilustrativos.</p>
+      <p>© <span data-year>2026</span> <span data-business>CRP Manutenção</span> Residencial e Comercial. Todos os direitos reservados. · Campinas / SP</p>
+    </div>
+  </div>
+</footer>
+<a class="sticky-cta" data-wa data-wa-text="Olá! Quero ver o bot da CRP Manutenção no WhatsApp.">Chamar no WhatsApp · <span data-phone>(19) 99578-1386</span></a>
+<script src="app.js"></script>
+</body>
+</html>
